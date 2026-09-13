@@ -1,0 +1,7 @@
+name: ironfit_site_tool
+description: Builds the static ironfituae.com site from the app's legal markdown.
+publish_to: none
+environment:
+  sdk: ^3.5.0
+dependencies:
+  markdown: ^7.3.0

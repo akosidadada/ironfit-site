@@ -1,0 +1,26 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #0B0B0D; color: #F5F5F5;
+  font: 16px/1.6 Inter, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+a { color: #F5F5F5; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 20px 24px; border-bottom: 1px solid #2A2A30; flex-wrap: wrap; }
+.brand { font-weight: 800; letter-spacing: 3px; color: #D22B2B; text-decoration: none; font-size: 22px; }
+nav a { margin-left: 18px; color: #9E9EA6; text-decoration: none; font-size: 14px; }
+nav a:hover { color: #F5F5F5; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+main.home h1 { font-size: 44px; line-height: 1.05; letter-spacing: 1px; margin: 24px 0 8px; }
+.lede { font-size: 19px; color: #F5F5F5; }
+.muted { color: #9E9EA6; font-size: 14px; }
+.btn { display: inline-block; background: #D22B2B; color: #fff; text-decoration: none;
+  padding: 12px 20px; border-radius: 12px; font-weight: 600; }
+.btn:hover { background: #A31F1F; }
+main.doc h1 { font-size: 32px; line-height: 1.15; }
+main.doc h2 { font-size: 22px; margin-top: 32px; }
+main.doc h3 { font-size: 17px; }
+main.doc p, main.doc li { color: #E6E6EA; }
+main.doc hr { border: 0; border-top: 1px solid #2A2A30; margin: 24px 0; }
+main.doc table { border-collapse: collapse; width: 100%; font-size: 14px; }
+main.doc th, main.doc td { border: 1px solid #2A2A30; padding: 8px; text-align: left; vertical-align: top; }
+footer { border-top: 1px solid #2A2A30; padding: 20px 24px; color: #9E9EA6; font-size: 13px; text-align: center; }
+footer a { color: #9E9EA6; }
