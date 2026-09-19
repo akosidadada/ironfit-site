@@ -3,7 +3,7 @@
 //
 //   cd ironfit-site/tool && dart pub get && dart run build.dart
 //
-// Output: ../site/{index,terms,privacy,waiver,delete-account,open}/index.html
+// Output: ../docs/{index,terms,privacy,waiver,delete-account,open}/index.html
 // Pretty URLs (folder + index.html) so /privacy works on every static host.
 
 import 'dart:io';
@@ -21,7 +21,7 @@ final legal = <String, String>{
 void main() {
   final root = Directory.current.parent;
   final legalDir = Directory('${root.parent.path}/ironfit-app/assets/legal');
-  final out = Directory('${root.path}/site');
+  final out = Directory('${root.path}/docs');
   out.createSync(recursive: true);
 
   for (final e in legal.entries) {

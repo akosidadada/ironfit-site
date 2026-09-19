@@ -18,18 +18,18 @@ dart pub get
 dart run build.dart
 ```
 
-Output is `ironfit-site/site/`. Re-run after any change to the legal
+Output is `ironfit-site/docs/` (GitHub Pages only publishes the repo root or `/docs`). Re-run after any change to the legal
 markdown; bump the version and effective date in the markdown, not here.
 
 ## Host (pick one, all free, all give HTTPS)
 
 **GitHub Pages** — the simplest.
 1. Create a repo `ironfit-site`, push this folder.
-2. Settings → Pages → Source: Deploy from branch, folder `/site`
-   (or move `site/` to the root; `CNAME` and `.nojekyll` are already there).
+2. Settings → Pages → Source: Deploy from branch, folder `/docs`
+   (or `CNAME` and `.nojekyll` are already in `docs/`).
 3. Settings → Pages → Custom domain: `ironfituae.com`, tick Enforce HTTPS.
 
-**Cloudflare Pages** or **Netlify** — drag the `site/` folder onto their
+**Cloudflare Pages** or **Netlify** — drag the `docs/` folder onto their
 dashboard, then add the custom domain.
 
 ## DNS (at AEserver)
